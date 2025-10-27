@@ -1,0 +1,15 @@
+# Ignore all 'target' directories at any level
+target/
+
+# Ignore other Rust build artifacts
+*.rlib
+*.so
+*.dll
+*.a
+*.exe
+*.pdb
+
+# Ignore IDE/Editor folders
+.vscode/
+.idea/
+.rust-analyzer/
